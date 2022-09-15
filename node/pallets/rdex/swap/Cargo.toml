@@ -21,6 +21,7 @@ frame-system = { branch = "master", default-features = false, git = 'https://git
 node-primitives = { path = "../../../primitives", default-features = false }
 rtoken-balances = { path = "../../rtoken/balances", default-features = false}
 rdex-balances = { path = "../balances", default-features = false}
+pallet-balances = { branch = "master", default-features = false, git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }
 
 [dev-dependencies]
 pallet-balances = { branch = "master", default-features = false, git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }
