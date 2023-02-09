@@ -21,6 +21,7 @@ frame-support = { branch = "master", default-features = false, git = 'https://gi
 frame-system = { branch = "master", default-features = false, git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }
 
 bridge-relayers = { path = "../relayers", default-features = false}
+pallet-balances = { branch = "master", default-features = false, git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }
 
 [dev-dependencies]
 sp-io = { branch = "master", git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }

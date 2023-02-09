@@ -23,6 +23,7 @@ frame-system = { branch = "master", default-features = false, git = 'https://git
 bridge-common = { path = "../common", default-features = false}
 rtoken-balances = { path = "../../rtoken/balances", default-features = false}
 xtoken-balances = { path = "../../xtoken/balances", default-features = false}
+pallet-balances = { branch = "master", default-features = false, git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }
 
 [dev-dependencies]
 sp-io = { branch = "master", git = 'https://github.com/stafiprotocol/stafi-blockchain.git' }
